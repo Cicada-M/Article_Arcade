@@ -1,0 +1,15 @@
+.my-styled-div {
+  perspective: 1000px;
+}
+
+.text-lg,
+.md\:text-xl,
+.lg\:text-2xl {
+  transition: transform 0.3s ease-in-out;
+}
+
+.text-lg:hover,
+.md\:text-2xl:hover,
+.lg\:text-3xl:hover {
+  transform: rotateY(10deg) translateZ(30px);
+}

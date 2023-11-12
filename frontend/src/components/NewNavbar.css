@@ -1,0 +1,15 @@
+@keyframes futuristicAnimation {
+  0% {
+    color: #000; /* Black */
+  }
+  50% {
+    color: #888; /* Gray */
+  }
+  100% {
+    color: #fff; /* White */
+  }
+}
+
+.animate-futuristic {
+  animation: futuristicAnimation 2s linear infinite; /* Adjust the duration as needed */
+}
